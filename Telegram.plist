@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<!-- 1. The DIRECT download URL to your hosted .ipa file -->
+					<string>https://dl.iosvizor.net/telegram/Telegram-v11-13-1.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<!-- 2. OPTIONAL: 57x57px App icon displayed during download -->
+					<string>https://githubusercontent.com</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<!-- 3. OPTIONAL: 512x512px App icon displayed in iTunes -->
+					<string>https://githubusercontent.com</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<!-- 4. CRITICAL: Must exactly match your Xcode App Bundle ID -->
+				<string>ph.telegra.Telegraph</string>
+				<key>bundle-version</key>
+				<!-- 5. Your app version number -->
+				<string>1.0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>platform-identifier</key>
+				<string>com.apple.platform.iphoneos</string>
+				<key>title</key>
+				<!-- 6. The name displayed on the iPhone installation pop-up -->
+				<string>Telegram</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
